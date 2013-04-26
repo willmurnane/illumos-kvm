@@ -2,9 +2,6 @@
 # Copyright (c) 2012, Joyent, Inc.  All Rights Reserved.
 #
 
-<<<<<<< HEAD
-INCLUDEDIR= -I $(KERNEL_SOURCE)/usr/src/uts/intel -I $(KERNEL_SOURCE)/usr/src/uts/i86pc -I $(KERNEL_SOURCE)/usr/src/uts/common
-=======
 KERNEL_SOURCE =	$(PWD)/../../illumos
 MDB_SOURCE =	$(KERNEL_SOURCE)/usr/src/cmd/mdb
 PROTO_AREA =	$(PWD)/../../../proto
