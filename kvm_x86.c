@@ -18,6 +18,7 @@
  *
  * Copyright 2011 various Linux Kernel contributors.
  * Copyright 2012 Joyent, Inc. All Rights Reserved.
+ * Copyright (c) 2012 Joyent, Inc. All Rights Reserved.
  * Copyright 2011 Richard Lowe
  */
 

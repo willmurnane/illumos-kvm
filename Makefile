@@ -291,7 +291,6 @@ JOY_kvm_link.so :	LIBS =		$(LINKMOD_LIBS)
 
 world: kvm kvm.so JOY_kvm_link.so
 
-
 kvm: $(KMOD_OBJS)
 	$(LD) -r -o $@ $(KMOD_OBJS)
 	$(CTFMERGE) -L VERSION -o $@ $(KMOD_OBJS)
